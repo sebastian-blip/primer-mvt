@@ -10,3 +10,4 @@ class Family(models.Model):
     edad = models.IntegerField()
     fecha_nacimiento = models.DateField()
 
+

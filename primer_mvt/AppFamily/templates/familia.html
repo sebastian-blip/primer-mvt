@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset=" UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"  content="width-device-width,initial-scale = 1.0">
+    <title>Familia</title>
+</head>
+<body>
+        {% for familiar in list_familia %}
+        <p style="color:darkred">Datos de mi {{familiar.parentesco}}</p>
+         Nombre : {{ familiar.nombre }} <br>
+         Edad : {{ familiar.edad }}<br>
+         Fecha de Nacimiento : {{ familiar.fecha_nacimiento }} <br>
+        {% endfor %}
+</body>
+</html>
